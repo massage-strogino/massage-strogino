@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аппаратный массаж СФЕРА</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <img class="header_background" src="static/images/header_background.png" alt="header_background">
+        </div>
+    </header>
+    <main>
+        <section class="topic">
+            <div class="topic_text_massage">Аппаратный массаж</div>
+            <div class="topic_text_sphere">СФЕРА</div>
+            <div class="topic_container">
+                <div class="slider">
+                    <div class="topic_image_list">
+                        <img src="static/images/main_photo.jpeg" alt="images_work">
+                        <img src="static/images/second_photo.jpeg" alt="images_work">
+                        <img src="static/images/third_photo.jpeg" alt="images_work">
+                        <img src="static/images/fourth_photo.jpeg" alt="images_work">
+                    </div>
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <div class="topic_text">
+                    <ul>
+                        <li>Улучшение кровообращения и лимфотока.</li>
+                        <li>Стимуляция выработки коллагена и эластина.</li>
+                        <li>Уменьшение жировых отложений и целлюлита.</li>
+                        <li>Повышение упругости и эластичности кожи.</li>
+                        <li>Снятие мышечного напряжения и усталости.</li>
+                        <li>Общее оздоровление организма.</li>
+                    </ul>
+                </div>
+                <div class="topic_woman_drawing">
+                    <img id="stickyImage" src="static/images/woman_png.jpeg" alt="Drawing">
+                </div>
+            </div>
+            <div class="services_button_container">
+                <button class="services_btn">
+                    <span class="services_text">Прайс лист</span>
+                    <img class="arrow_icon" src="static/images/arrow_icon.png" alt="">
+                </button>
+            </div>
+            <div class="services_price_container">
+                <div class="services_price">
+                    <ul class="services_price_list">
+                        <li>30 мин - 1500p</li>
+                        <li>45 мин - 2100p</li>
+                        <li>60 мин - 2500р</li>
+                        <li>75 мин - 3000p</li>
+                        <li class="abonement">Абoнeмeнт</li>
+                        <li>5 ceaнcoв 45 мин - 10000p</li>
+                        <li>10 сеaнcoв 45 мин - 19500р</li>
+                        <li>5 сeaнcoв 75 мин - 14000p</li>
+                        <li>10 ceaнcов 75 мин - 27000p</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sign_button_container">
+                <!-- <button class="sign_btn">ЗАПИСАТЬСЯ НА СЕАНС</button>
+                  -->
+                <div style="margin-top: 50px; font-size: 20px;">
+                    Запись на сеанс происходит через соцсети
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="social_icons">
+                <ul class="social_icons_list">
+                    <li><a href="https://t.me/+79145444097"><img src="static/images/tg_icon.png" alt="Telegram"></a></li>
+                    <li><a href="https://wa.me/+79145444097"><img src="static/images/whatsapp_icon.png" alt="WhatsApp"></a></li>
+                    <li><a href="https://www.instagram.com/massage_strogino_natalya?igsh=MWJvYjdzc2IwcHJ4bg=="><img src="static/images/insta_icon.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <ul class="adress_list_top">
+                    <li>г. Москва, Неманский пр., д.7</li>
+                </ul>
+                <ul class="adress_list_bottom">
+                    <li>Метро Строгино</li>
+                   <li> <img src="static/images/metro_icon.png" alt="Metro Icon"></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_div"></div>
+    </footer>
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+        <button class="prev" id="prevLightbox">&lt;</button>
+        <button class="next" id="nextLightbox">&gt;</button>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
